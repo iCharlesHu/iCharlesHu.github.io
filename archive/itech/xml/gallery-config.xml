@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<!--This is configuation source for www.icharleshu.com/gallery/ -->
+<!--This file was written by Charles Hu on Feb.10,2013-->
+
+<configuration>
+	<StageHero>
+		<Slide5>
+			<Background>http://www.icharleshu.com/images/gallery/heros/hero1.jpg</Background>
+			<DataOrientation>horizontal</DataOrientation>
+			<DataSlice1Rotation>-25</DataSlice1Rotation>
+			<DataSlice2Rotation>-25</DataSlice2Rotation>
+			<DataSlice1Scale>2</DataSlice1Scale>
+			<DataSlice2Scale>2</DataSlice2Scale>
+			<TitleImg>0px, 0px</TitleImg>
+			<DesPOS>0px auto 0px 5%</DesPOS>
+			<DesFloat>Left</DesFloat>
+			<PoemLine>To see a World in a Grain of Sand, And a Heaven in a Wild Flower, Hold infinity in the palm of your hand, And Eternity in an hour. </PoemLine>
+			<PoemCite>William Blake</PoemCite>
+		</Slide5>
+		<Slide4>
+			<Background>http://www.icharleshu.com/images/gallery/heros/hero2.jpg</Background>
+			<DataOrientation>vertical</DataOrientation>
+			<DataSlice1Rotation>10</DataSlice1Rotation>
+			<DataSlice2Rotation>-15</DataSlice2Rotation>
+			<DataSlice1Scale>1.5</DataSlice1Scale>
+			<DataSlice2Scale>1.5</DataSlice2Scale>
+			<TitleImg>-500px, 0px</TitleImg>
+			<DesPOS>0px auto 0px auto</DesPOS>
+			<DesFloat>Left</DesFloat>
+			<PoemLine>There is no definition of beauty, but when you can see someone's spirit coming through, something unexplainable, that's beautiful to me.</PoemLine>
+			<PoemCite>Liv Tyler</PoemCite>
+		</Slide4>
+		<Slide3>
+			<Background>http://www.icharleshu.com/images/gallery/heros/hero3.jpg</Background>
+			<DataOrientation>horizontal</DataOrientation>
+			<DataSlice1Rotation>3</DataSlice1Rotation>
+			<DataSlice2Rotation>3</DataSlice2Rotation>
+			<DataSlice1Scale>2</DataSlice1Scale>
+			<DataSlice2Scale>1</DataSlice2Scale>
+			<TitleImg>-1000px, 0px</TitleImg>
+			<DesPOS>0px auto 0px 10%</DesPOS>
+			<DesFloat>Left</DesFloat>
+			<PoemLine>Love of beauty is taste. The creation of beauty is art.</PoemLine>
+			<PoemCite>Ralph Waldo Emerson</PoemCite>
+		</Slide3>
+		<Slide2>
+			<Background>http://www.icharleshu.com/images/gallery/heros/hero4.jpg</Background>
+			<DataOrientation>vertical</DataOrientation>
+			<DataSlice1Rotation>-5</DataSlice1Rotation>
+			<DataSlice2Rotation>20</DataSlice2Rotation>
+			<DataSlice1Scale>2</DataSlice1Scale>
+			<DataSlice2Scale>2</DataSlice2Scale>
+			<TitleImg>-1500px, 0px</TitleImg>
+			<DesPOS>0px auto 0px 7%</DesPOS>
+			<DesFloat>Left</DesFloat>
+			<PoemLine>Never lose an opportunity of seeing anything beautiful, for beauty is God's handwriting.</PoemLine>
+			<PoemCite>Charles Kingsley</PoemCite>
+		</Slide2>
+		<Slide1>
+			<Background>http://www.icharleshu.com/images/gallery/heros/hero5.jpg</Background>
+			<DataOrientation>horizontal</DataOrientation>
+			<DataSlice1Rotation>-5</DataSlice1Rotation>
+			<DataSlice2Rotation>10</DataSlice2Rotation>
+			<DataSlice1Scale>2</DataSlice1Scale>
+			<DataSlice2Scale>1.5</DataSlice2Scale>
+			<TitleImg>-2000px, 0px</TitleImg>
+			<DesPOS>0px 10% 0px auto</DesPOS>
+			<DesFloat>Right</DesFloat>
+			<PoemLine>Beauty itself is but the sensible image of the Infinite.</PoemLine>
+			<PoemCite>Francis Bacon</PoemCite>
+		</Slide1>
+	</StageHero>
+	<GalleryCollections>
+		<Collection1>
+			<CoverPic>http://www.icharleshu.com/images/gallery/charles-collection/cover.jpg</CoverPic>
+			<CollectionTitle>Charles' Collection</CollectionTitle>
+			<LightPeek>
+				<Peek1>http://www.icharleshu.com/images/gallery/charles-collection/photos/2.jpg</Peek1>
+				<Peek2>http://www.icharleshu.com/images/gallery/charles-collection/photos/3.jpg</Peek2>
+				<Peek3>http://www.icharleshu.com/images/gallery/charles-collection/photos/8.jpg</Peek3>
+				<Peek4>http://www.icharleshu.com/images/gallery/charles-collection/photos/18.jpg</Peek4>
+				<Peek5>http://www.icharleshu.com/images/gallery/charles-collection/photos/5.jpg</Peek5>
+			</LightPeek>
+			<CollectionAuthor></CollectionAuthor>
+			<CollectionDES></CollectionDES>
+		</Collection1>
+	</GalleryCollections>
+</configuration>

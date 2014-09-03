@@ -1,0 +1,525 @@
+/*This file is the about page style file for www.icharleshu.com/about/ */
+/*This file was powered by Charles Hu on Nov.22,2012*/
+/*This file is licensed only for use in www.icharleshu.com*/
+
+#mainRestriction{
+	height: 1500px;
+}
+
+#mainSection{
+	height: 1500px;
+	top: 0px;
+}
+
+#pageIndicator{
+	width: 41px;
+	height: 17px;
+	position: relative;
+	top: 0px;
+	left: 180px; /*Indicate About Page*/
+	background: url(../images/pageIndicator.png) no-repeat;
+	background-size: 100%;
+	z-index: 100;
+}
+
+/*Hero Pic*/
+#aboutHero{
+	width: 100%;
+	height: 500px;
+	background: url(../images/aboutHero.jpg) no-repeat center top;
+	background-size: cover;
+	border-radius: 5px 5px 0px 0px;
+}
+
+#aboutHeroTitle{
+	background: url(../images/aboutHeroTitle.png) no-repeat;
+	width: 229px;
+	height: 188px;
+	position: relative;
+	left: 50%;
+	margin-left: 260px;
+	top: 50px;
+}
+
+.heroLinks{
+	width: 300px;
+	height: 450px;
+	position: relative;
+	float: left;
+	top: -188px;
+}
+
+#linkToCharles{
+	left: 50%;
+	margin-left: -320px;
+	cursor: pointer;
+}
+
+#linkToJacob{
+	left: 50%;
+	width: 330px;
+	margin-left: -15px;
+	cursor: pointer;
+}
+
+.heroLeaderNameTags{
+	background: url(../images/namePopBlack.png) no-repeat;
+	width: 114px;
+	height: 44px;
+	position: relative;
+	-webkit-transform: translate3d(0,0,0);
+}
+
+#heroCharlesNameTag{
+	left: 105px;
+	top: 40px;
+	opacity: 0;
+	-webkit-transition: all .2s linear;
+}
+
+#linkToCharles:hover > #heroCharlesNameTag{
+	top: 50px;
+	opacity: 1;
+}
+
+#heroJacobNameTag{
+	left: 90px;
+	top: 260px;
+	opacity: 0;
+	-webkit-transform: rotateZ(180deg);
+	-webkit-transition: all .2s linear;
+}
+
+#linkToJacob:hover > #heroJacobNameTag{
+	top: 250px;
+	opacity: 1;
+}
+
+.heroLeaderNameTagLabels{
+	margin: 0px;
+	font-family: "MainR";
+	font-weight: 500;
+	font-size: 20px;
+	color: white;
+	position: relative;
+}
+
+#heroLeaderCharlesTagLabel{
+	top: 5px;
+	left: 24px;
+}
+
+#heroLeaderJacobTagLabel{
+	-webkit-transform: rotateZ(180deg);
+	display: block;
+	left: -30px;
+	top: 2px;
+}
+
+/*Leader Bio Section*/
+.aboutSections{
+	width: 100%;
+	top: -50px;
+	position: relative;
+}
+
+#leaderBioSection{
+	height: 350px;
+	background: rgba(255,255,255,.4);
+	position: relative;
+	top: -50px;
+}
+
+#leaderIndicator{
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 20px solid rgba(255,255,255,.4);
+	position: relative;
+	top: -20px;
+	left: 420px;
+	-webkit-transition: .3s all ease-in-out;
+}
+
+.bioSections{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	display: none;
+}
+
+#charlesBioSection{
+	display: block;
+}
+
+.currentLeader{
+	display: block !important;
+}
+
+.leaderAvatars{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	margin: 25px 25px 25px 25px;
+	top: 0px;
+	left: 0px;
+	float: left;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.4);
+	-webkit-transition: all .4s ease-in-out;
+}
+
+.leaderSocialLinks{
+	width: 13%;
+	height: 300px;
+	margin: 25px;
+	float: right;
+	border-left: 1px solid rgb(180,180,180);
+}
+
+.leaderBioTextSection{
+	width: 52%;
+	height: 300px;
+	margin: 25px 0px 25px 0px;
+	float: left;
+	left: 350px;
+	position: absolute;
+	-webkit-transition: all .4s ease-in-out;
+}
+
+.bioParagraphs{
+	font-size: 21px;
+}
+
+#charlesAvatar{
+	background: url(../images/charlesAvatar.jpg) no-repeat;
+	background-size: cover;
+	opacity: 1;
+}
+
+#charlesBioTextSection{
+	opacity: 1;
+}
+
+.leaderBioTitles{
+	margin: 0px;
+	font-family: "MainR";
+	font-weight: 500;
+	font-size: 40px;
+}
+
+#jacobAvatar{
+	background: url(../images/jacobAvatar.jpg) no-repeat;
+	background-size: cover;
+	opacity: 0;
+}
+
+#jacobBioTextSection{
+	opacity: 0;
+}
+
+.socialIcons{
+	float: left;
+	height: 50px;
+	width: 50px;
+	border-radius: 25px;
+	background: rgba(0,0,0,.4);
+	margin-left: 20px;
+	margin-right: 50%;
+	-webkit-transition: all .3s ease-in-out;
+	display: table-cell;
+	margin-bottom: 15px;
+}
+
+.socialIcons a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.emailLinks{
+	margin-top: 27px;
+}
+
+.emailLinks:hover{
+	background: rgb(29,130,201);
+	-webkit-transition: all .2s ease-in-out;
+}
+
+.facebookLinks:hover{
+	background: #243f76;
+	-webkit-transition: all .2s ease-in-out;
+}
+
+.weiboLinks:hover{
+	background: rgb(198,23,26);
+	-webkit-transition: all .3s ease-in-out;
+}
+
+.twitterLinks:hover{
+	background: rgb(35,155,233);
+	-webkit-transition: all .2s ease-in-out;
+}
+
+.emailLinkPic{
+	width: 32px;
+	height: 22px;
+	margin-top: 15px;
+	margin-left: 9px;
+	background: url(../images/footerSocialIcons.png) no-repeat;
+	background-position-x: -46px;
+	background-size: 240%;
+}
+
+.facebookLinkPic{
+	width: 18px;
+	height: 32px;
+	margin-top: 12px;
+	margin-left: 15px;
+	background: url(../images/footerSocialIcons.png) no-repeat;
+	background-position-x: -31px;
+	background-size: 441%;
+}
+
+.weiboLinkPic{
+	width: 32px;
+	height: 28px;
+	margin-top: 11px;
+	margin-left: 10px;
+	background: url(../images/footerSocialIcons.png) no-repeat 0px 0px;
+	background-size: 250%;
+}
+
+.twitterLinkPic{
+	width: 50px;
+	height: 50px;
+	margin: 0px;
+	background: url(../images/twitterLogo.png) no-repeat;
+	background-size: 100%;
+}
+
+/*Slogan Section*/
+#aboutSloganSection{
+	height: 150px;
+	background: url(../images/sloganBG.jpg) no-repeat center center;
+	background-size: cover;
+	box-shadow: inset 0px 0px 20px rgba(0,0,0,.5);
+}
+
+.shadowMask{
+	width: 100%;
+	height: 100%;
+	background: -webkit-radial-gradient(circle, rgba(0,0,0,0), rgba(0,0,0,.7));
+}
+
+#aboutSlogan{
+	margin: 0px;
+	position: relative;
+	font-family: "StyledL";
+	font-weight: 500;
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	top: 40px;
+	text-shadow: 0px 0px 5px rgba(0,0,0,.5);
+}
+
+/*iTech Description Section*/
+#iTechDesSection{
+	height: 550px;
+}
+
+.iTechDesSectionComponent{
+	height: 500px;
+	margin-top: 25px;
+	margin-left: 25px;
+}
+
+#iTechDesTextSection{
+	width: auto%;
+	float: left;
+	margin-right: 550px;
+}
+
+#iTechDesPicStage{
+	float: right;
+	width: 500px;
+	margin-right: 25px;
+	position: absolute;
+	right: 0px;
+}
+
+.picStageBlocks{
+	position: absolute;
+	background: url(../images/iTechPicStage.png) no-repeat;
+	float: left;
+	box-shadow: 0px 0px 5px rgba(0,0,0,.3);
+}
+
+.picStageBlocks a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+}
+
+#picBlock1{
+	left: 0;
+	top: 0;
+	width: 110px;
+	height: 240px;
+	background-position: 0px 0px;
+}
+
+#picBlock2{
+	left: 130px;
+	top: 0px;
+	width: 110px;
+	height: 240px;
+	background-position: -130px 0px;
+}
+
+#picBlock3{
+	left: 260px;
+	top: 0px;
+	width: 110px;
+	height: 370px;
+	background-position: -260px 0px;
+}
+
+#picBlock4{
+	left: 390px;
+	top: 0px;
+	width: 110px;
+	height: 110px;
+	background-position: -390px 0px;
+}
+
+#picBlock5{
+	left: 0px;
+	top: 260px;
+	width: 240px;
+	height: 110px;
+	background-position: 0px -260px;
+}
+
+#picBlock6{
+	left: 390px;
+	top: 130px;
+	width: 110px;
+	height: 370px;
+	background-position: -390px -130px;
+}
+
+#picBlock7{
+	left: 0px;
+	top: 390px;
+	width: 110px;
+	height: 110px;
+	background-position: 0px -390px;
+}
+
+#picBlock8{
+	left: 130px;
+	top: 390px;
+	width: 240px;
+	height: 110px;
+	background-position: -130px -390px;
+}
+
+.picStageBlocksMask{
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	background: rgba(0,0,0,.4);
+	-webkit-transition: all .2s ease-in-out;
+}
+
+.picStageBlocksMask:hover{
+	opacity: 1;
+}
+
+#iTechDesTitle{
+	margin: 0px 0px 15px 0px;
+	font-family: "StyledL";
+	font-size: 45px;
+	font-weight: 500;
+	line-height: 45px;
+	-webkit-animation: colorSwitch infinite 10s linear;
+}
+
+#iTechDesTextSection p{
+	margin: 10px 0px 0px 0px;
+	font-family: "MainR";
+	font-size: 21px;
+	font-weight: 500;
+}
+
+#iTechDesTextSection strong{
+	font-family: "StyledR";
+	font-weight: 500;
+	font-size: 45px;
+	margin: 0px;
+}
+
+@-webkit-keyframes colorSwitch{
+	0%{
+		color: black;
+	}
+	20%{
+		color: rgb(29,130,201);
+	}
+	40%{
+		color: rgb(39,177,166);
+	}
+	60%{
+		color: rgb(251,192,20);
+	}
+	80%{
+		color: rgb(244,129,29);
+	}
+	100%{
+		color: black;
+	}
+}
+
+/*Speciaication for different sizes*/
+@media only screen and (min-width : 320px) and (max-width : 568px){	/*For iPhone*/
+	
+}
+
+@meida only screen and (min-width : 569px) and (max-width : 770px){	/*For iPad, only portrait mode*/
+	
+}
+
+@media only screen and (min-width : 771px) and (max-width : 1024px){	/*For iPad, only landscape mode*/
+	#iTechDesPicStage{
+		right: -130px;
+	}
+	#picBlock4{
+		display: none;
+	}
+	#picBlock6{
+		display: none;
+	}
+	#iTechDesTextSection{
+		margin-right: 420px;
+	}
+	#iTechDesTextSection p{
+		font-size: 18px;
+	}
+}
+
+@media only screen and (min-width : 1025px) and (max-width : 1280px){	/*For 13 inches*/
+	
+}
+
+@media only screen and (min-width : 1281px) and (max-width : 1440px){	/*For 15 inches*/
+	
+}
+
+@media only screen and (min-width : 1441px){ /*Anything larger than 15 inches*/
+	
+}

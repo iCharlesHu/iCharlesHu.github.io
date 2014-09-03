@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- This page is powered by Charles Hu on Sep.21,2012. This file is only licensed for use in www.icharleshu.com -->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>404 | iTech Team</title>
+		<meta name="description" content="Study Group, East Machias, Mac, iOS, Web Develop">
+		<meta name="author" content="胡亦喆 Charles Hu">
+		
+		<!-- CSS Files -->
+		<link rel="stylesheet" href="../css/fonts.css">
+		<link rel="stylesheet" href="../css/master.css">
+		<link rel="stylesheet" href="../css/404.css">
+		
+		<!-- Javascript Files -->
+		<script type="text/javascript" src="../javascript/jquery-1.8.2.min.js"></script>
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-31350014-1']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+	</head>
+	
+	<body>
+		<header id="navBar">
+			<div id="navHome">
+				<a href="http://www.icharleshu.com/">
+				<div id="navHomeOverlay"></div>
+				<div id="navHomeBG"></div>
+				</a>
+			</div>
+			<div class="navIcons" id="nav1">
+				<a href="http://www.icharleshu.com/about/" class="navIconsActive">
+					<div class="navIconsOverlay" id="nav1Overlay">
+						<div class="navIconsLogo" id="nav1Logo"></div>
+						<p class="navIconsTitle" id="nav1Title">About Us</p>
+						<div class="navIconsDes" id="nav1Des">Find out who we are...</div>
+					</div>
+					<div class="navIconsMColor" id="nav1MColor"></div>
+					<div class="navIconsBG" id="nav1BG"></div>
+				</a>
+			</div>	
+			<div class="navIcons" id="nav2">
+				<a href="http://www.icharleshu.com/gallery/" class="navIconsActive">
+					<div class="navIconsOverlay" id="nav2Overlay">
+						<div class="navIconsLogo" id="nav2Logo"></div>
+						<div class="navIconsTitle" id="nav2Title">Gallery</div>
+						<div class="navIconsDes" id="nav2Des">Beautiful & Fresh Pictures...</div>
+					</div>
+					<div class="navIconsMColor" id="nav1MColor"></div>
+					<div class="navIconsBG" id="nav2BG"></div>
+				</a>
+			</div>
+			<div class="navIcons" id="nav3">
+				<a href="http://www.icharleshu.com/blog/" class="navIconsActive">
+					<div class="navIconsOverlay" id="nav3Overlay">
+						<div class="navIconsLogo" id="nav3Logo"></div>
+						<div class="navIconsTitle" id="nav3Title">Blog</div>
+						<div class="navIconsDes" id="nav3Des">What's up? What's new?</div>
+					</div>
+					<div class="navIconsMColor" id="nav3MColor"></div>
+					<div class="navIconsBG" id="nav3BG"></div>
+				</a>
+			</div>
+			<div class="navIcons" id="nav4">
+				<a href="http://www.icharleshu.com/contact/" class="navIconsActive">
+					<div class="navIconsOverlay" id="nav4Overlay">
+						<div class="navIconsLogo" id="nav4Logo"></div>
+						<div class="navIconsTitle" id="nav4Title">Contact Us</div>
+						<div class="navIconsDes" id="nav4Des">Let us know you like us...</div>
+					</div>
+					<div class="navIconsMColor" id="nav4MColor"></div>
+					<div class="navIconsBG" id="nav4BG"></div>
+				</a>
+			</div>
+			<div class="navIcons" id="navMore">
+				<div id="navMoreLogo"></div>
+			</div>
+		</header>
+		
+		<div id="mainRestriction">
+			<div id="mainSection">
+				<div id="radar">
+					<div id="radarSwipe"></div>
+					<div id="radarMap"></div>
+				</div>
+				<h1 id="errorText">It seems this pages has been lost. Please visit out <a href="http://www.icharleshu.com">homepage</a> while iTech Special Agent (ITSA) is serching for this page around the world.</h1>
+			</div>
+		</div>
+		
+		<footer id="footerInfo">
+			<div id="footerLogo"></div>
+			<div id="footerDes">
+				<div id="copyRight">Copyright © 2012 Charles Hu. All rights reserved.</div>
+				<div id="locationState">66 Cutler Road, East Machias, ME, 04630</div>
+			</div>
+			<div id="footerSocialSection">
+				<div class="footerSocialIcons" id="footerWeibo">
+					<a href="http://weibo.com/icharleshu" target="_blank"></a>
+					<div id="footerWeiboPic"></div>
+				</div>
+				<div class="footerSocialIcons" id="footerFacebook">
+					<a href="https://www.facebook.com/pages/ITech-Team/305196599542186" target="_blank"></a>
+					<div id="footerFacebookPic"></div>
+				</div>
+				<div class="footerSocialIcons" id="footerMail">
+					<a href="mailto:itech@icharleshu.com" target="_blank"></a>
+					<div id="footerMailPic"></div>
+				</div>
+			</div>
+		</footer>
+	</body>
+	
+</html>

@@ -1,0 +1,76 @@
+@font-face{
+	font-family: "MainR";
+	src: url(../fonts/iCHF.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: "MainL";
+	src: url(../fonts/iCHFLight.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: "MainB";
+	src: url(../fonts/iCHFBold.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: "MainI";
+	src: url(../fonts/iCHFitalic.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: "MainCond";
+	src: url(../fonts/iCHFCond.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: "StyledR";
+	src: url(../fonts/Merriweather.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: "StyledB";
+	src: url(../fonts/MerriweatherB.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: "StyledL";
+	src: url(../fonts/MerriweatherL.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: "Circle";
+	src: url(../fonts/circle.woff);
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: "CircleBold";
+	src: url(../fonts/circleBold.woff);
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: "HugeLetters";
+	src: url(../fonts/join-us.woff);
+	font-style: normal;
+	font-weight: normal;
+}

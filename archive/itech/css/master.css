@@ -1,0 +1,1144 @@
+/*This file is the master css file for www.icharleshu.com */
+/*This file was powered by Charles Hu on Sep.21,2012*/
+/*This file is licensed only for use in www.icharleshu.com*/
+
+html{
+	height: auto;
+	width: 100%;
+	background: url(../images/LinenBG.png) repeat;
+	font-family: "MainR";
+	text-decoration: none;
+	-webkit-font-smoothing: antialiased !important;
+	-moz-font-smoothing: antialiased !important;
+	-o-font-smoothing: antialiased !important;
+	-ms-font-smoothing: antialiased !important;
+	font-smoothing: antialiased !important;
+}
+
+html a{
+	text-decoration: none;
+	color: rgb(235, 121, 102);
+}
+
+html a:hover{
+	text-decoration: underline;
+}
+
+html a:visited{
+	color: #F6A71E;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+#preload{
+	display: none;
+}
+
+::selection{
+	background: rgba(255,200,0,.4);
+	color: black;
+}
+
+/*Different Font Styles*/
+strong{
+	font-family: "MainB";
+}
+
+pink{
+	color: rgb(234, 76, 136) !important;
+}
+
+red{
+	color: rgb(235, 69, 64) !important;
+}
+
+orange{
+	color: rgb(244, 129, 29) !important;
+}
+
+orangered{
+	color: rgb(201, 74, 0) !important;
+}
+
+yellow{
+	color: rgb(251, 192, 20) !important;
+}
+
+green{
+	color: rgb(150, 201, 73) !important;
+}
+
+blue{
+	color: rgb(29, 130, 201) !important;
+}
+
+purple{
+	color: rgb(131, 88, 160) !important;
+}
+
+salmon{
+	color: rgb(235, 121, 102) !important;
+}
+
+wgreen{
+	color: rgb(39, 171, 66) !important;
+}
+
+underline{
+	text-decoration: underline;
+}
+
+violet{
+	color: rgb(131, 0, 109) !important;
+}
+
+grey{
+	color: rgb(180, 180, 180) !important;
+}
+
+/*Loader State*/
+.loading{
+	-webkit-animation-delay: 99999s !important;
+	-moz-animation-delay: 99999s !important;
+	-ms-animation-delay: 99999s !important;
+	-o-animation-delay:99999s !important;
+	animation-delay: 99999s !important;
+}
+
+/*Header*/
+header{
+	padding-top: 30px;
+	max-width: 1360px;
+	min-width: 1216px;
+	width: 95%;
+	margin-left: 2.5%;
+	height: 120px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	position: relative;
+}
+
+.navIcons{
+	top: 5px;
+	width: 120px;
+	height: 120px;
+	float: left;
+	margin-right: 20px;
+	overflow: hidden;
+	z-index: 1;
+	position: relative;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	-webkit-animation: bounceIn .5s ease-in-out both;
+	-moz-animation: bounceIn .5s ease-in-out both;
+	-ms-animation: bounceIn .5s ease-in-out both;
+	-o-animation: bounceIn .5s ease-in-out both;
+	animation: bounceIn .5s ease-in-out both;
+}
+
+.navIcons a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+.navIconsMColor{
+	margin-top: 6px;
+	margin-left: 6px;
+	width: 108px;
+	height: 108px;
+	border-radius: 54px;
+	background: url(../images/paperBG.jpg) repeat;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+.navIconsOverlay{
+	margin-top: 12px;
+	margin-left: 12px;
+	width: 96px;
+	height: 96px;
+	border-radius: 48px;
+	float: left;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	float: left;
+}
+
+.navIconsTitle{
+	float: right;
+	margin-right: 24px;
+	margin-top: -60px;
+	font-size: 24px;
+	color: rgb(237,237,229);
+	opacity: 0;
+	display: block;
+}
+
+.navIconsDes{
+	float: right;
+	text-align: center;
+	margin-right: 14px;
+	margin-top: -33px;
+	max-width: 110px;
+	color: rgb(237,237,229);
+	opacity: 0;
+	display: block;
+}
+
+.navIconsLogo{
+	margin-right: 0;
+	padding: 0;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+@-webkit-keyframes bounceIn {
+	0% {
+		opacity: 0;
+		-webkit-transform: scale(.3);
+	}
+	
+	50% {
+		opacity: 1;
+		-webkit-transform: scale(1.05);
+	}
+	
+	70% {
+		-webkit-transform: scale(.9);
+	}
+	
+	100% {
+		-webkit-transform: scale(1);
+	}
+}
+
+@-moz-keyframes bounceIn {
+	0% {
+		opacity: 0;
+		-moz-transform: scale(.3);
+	}
+	
+	50% {
+		opacity: 1;
+		-moz-transform: scale(1.05);
+	}
+	
+	70% {
+		-moz-transform: scale(.9);
+	}
+	
+	100% {
+		-moz-transform: scale(1);
+	}
+}
+
+@-ms-keyframes bounceIn {
+	0% {
+		opacity: 0;
+		-ms-transform: scale(.3);
+	}
+	
+	50% {
+		opacity: 1;
+		-ms-transform: scale(1.05);
+	}
+	
+	70% {
+		-ms-transform: scale(.9);
+	}
+	
+	100% {
+		-ms-transform: scale(1);
+	}
+}
+
+@-o-keyframes bounceIn {
+	0% {
+		opacity: 0;
+		-o-transform: scale(.3);
+	}
+	
+	50% {
+		opacity: 1;
+		-o-transform: scale(1.05);
+	}
+	
+	70% {
+		-o-transform: scale(.9);
+	}
+	
+	100% {
+		-o-transform: scale(1);
+	}
+}
+
+@keyframes bounceIn {
+	0% {
+		opacity: 0;
+		transform: scale(.3);
+	}
+	
+	50% {
+		opacity: 1;
+		transform: scale(1.05);
+	}
+	
+	70% {
+		transform: scale(.9);
+	}
+	
+	100% {
+		transform: scale(1);
+	}
+}
+
+/*Home*/
+#navHome{
+	width: 120px;
+	height: 120px;
+	margin-right: 20px;
+	float: left;
+	position: relative;
+	-webkit-animation: bounceIn .5s ease-in-out .4s both;
+	-moz-animation: bounceIn .5s ease-in-out .4s both;
+	-ms-animation: bounceIn .5s ease-in-out .4s both;
+	-o-animation: bounceIn .5s ease-in-out .4s both;
+	animation: bounceIn .5s ease-in-out .4s both;
+}
+
+#navHome a{
+	width: 100%;
+	height: 100%;
+}
+
+#navHomeOverlay{
+	background: url(../images/navHomeLogo.png) no-repeat;
+	width: 120px;
+	height: 120px;
+	background-size: 100%;
+	float: left;
+}
+
+#navHomeBG{
+	height: 100%;
+	width: 100%;
+}
+
+#navHome:hover{
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+}
+
+/*About Us*/
+#nav1Logo{
+	width: 69px;
+	height: 57px;
+	background: url(../images/navAboutUsLogo.png) no-repeat;
+	background-size: 100%;
+	margin-left: 13px;
+	margin-top: 16px;
+}
+
+#nav1 #nav1Overlay{
+	background: rgb(235,69,64);
+}
+
+#nav1{
+	-webkit-animation-delay: .6s;
+	-moz-animation-delay: .6s;
+	-ms-animation-delay: .6s;
+	-o-animation-delay: .6s;
+	animation-delay: .6s;
+}
+
+/*End About US*/
+
+/*Gallery*/
+#nav2 #nav2Overlay{
+	background: rgb(244,129,29);
+}
+
+#nav2{
+	-webkit-animation-delay: .8s;
+	-moz-animation-delay: .8s;
+	-ms-animation-delay: .8s;
+	-o-animation-delay: .8s;
+	animation-delay: .8s;
+}
+
+#nav2Logo{
+	width: 61px;
+	height: 61px;
+	background: url(../images/navGalleryLogo.png) no-repeat;
+	background-size: 100%;
+	margin-left: 17px;
+	margin-top: 17px;
+}
+
+#nav2Title{
+	margin-right: 35px;
+	margin-top: -66px;
+}
+
+#nav2Des{
+	margin-right: 15px;
+	margin-top: -36px;
+}
+/*End Gallery*/
+
+/*Blog*/
+#nav3 #nav3Overlay{
+	background: rgb(251,192,20);
+}
+
+#nav3{
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-ms-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	animation-delay: 1s;
+}
+
+#nav3Logo{
+	width: 71px;
+	height: 58px;
+	background: url(../images/navBlogLogo.png) no-repeat;
+	background-size: 100%;
+	margin-left: 13px;
+	margin-top: 20px;
+}
+
+#nav3Title{
+	margin-right: 44px;
+	margin-top: -66px;
+}
+
+#nav3Des{
+	margin-right: 12px;
+	margin-top: -34px;
+}
+/*End Blog*/
+
+/*Contact Us*/
+#nav4 #nav4Overlay{
+	background: rgb(150,201,73);
+}
+
+#nav4{
+	-webkit-animation-delay: 1.2s;
+	-moz-animation-delay: 1.2s;
+	-ms-animation-delay: 1.2s;
+	-o-animation-delay: 1.2s;
+	animation-delay: 1.2s;
+}
+
+#nav4Logo{
+	width: 66px;
+	height: 46px;
+	background: url(../images/navContactLogo.png) no-repeat;
+	background-size: 100%;
+	margin-left: 16px;
+	margin-top: 26px;
+}
+
+#nav4Title{
+	margin-right: 15px;
+	margin-top: -58px;
+}
+
+#nav4Des{
+	margin-right: 14px;
+	margin-top: -29px;
+}
+/*End Contact US*/
+
+/*More to Come*/
+#navMore{
+	border: rgb(236,237,227) dashed 6px;
+	width: 96px;
+	height: 96px;
+	border-radius: 54px;
+	margin-left: 6px;
+	top: 5px;
+	-webkit-animation-delay: 1.4s;
+	-moz-animation-delay: 1.4s;
+	-ms-animation-delay: 1.4s;
+	-o-animation-delay: 1.4s;
+	animation-delay: 1.4s;
+}
+
+#navMoreLogo{
+	width: 74px;
+	height: 46px;
+	background: url(../images/navMoreLogo.png) no-repeat;
+	background-size: 100%;
+	margin-left: 11px;
+	margin-top: 23px;
+}
+/*End More to Come*/
+
+/*Hover Animation*/
+.navIcons:hover{
+	width: 240px;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+.navIconsActive:hover > .navIconsOverlay{
+	width: 216px;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+.navIconsActive:hover > .navIconsMColor{
+	width: 228px;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+.navIconsActive:hover > .navIconsOverlay > .navIconsTitle{
+	opacity: 1;
+	-webkit-transition: all .2s ease-in-out .4s;
+	-moz-transition: all .2s ease-in-out .4s;
+	-ms-transition: all .2s ease-in-out .4s;
+	-o-transition: all .2s ease-in-out .4s;
+	transition: all .2s ease-in-out .4s;
+}
+
+.navIconsActive:hover > .navIconsOverlay > .navIconsDes{
+	opacity: 1;
+	-webkit-transition: all .2s ease-in-out .4s;
+	-moz-transition: all .2s ease-in-out .4s;
+	-ms-transition: all .2s ease-in-out .4s;
+	-o-transition: all .2s ease-in-out .4s;
+	transition: all .2s ease-in-out .4s;
+}
+
+.navIconsActive:hover > .navIconsOverlay > .navIconsLogo{
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+#navMore:hover{
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+/*End Hover Animation*/
+
+/*Nav Icons Hide State: For JavaScript*/
+
+@-webkit-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(-130px);
+	}
+	
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+	}
+}
+
+@-moz-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-moz-transform: translateY(-130px);
+	}
+	
+	100% {
+		opacity: 1;
+		-moz-transform: translateY(0);
+	}
+}
+
+@-ms-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-ms-transform: translateY(-130px);
+	}
+	
+	100% {
+		opacity: 1;
+		-ms-transform: translateY(0);
+	}
+}
+
+@-o-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-o-transform: translateY(-130px);
+	}
+	
+	100% {
+		opacity: 1;
+		-o-transform: translateY(0);
+	}
+}
+
+@keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		transform: translateY(-130px);
+	}
+	
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@-webkit-keyframes bounceInDown {
+	0% {
+		opacity: 0;
+		top: -1000px;
+	}
+	
+	60% {
+		opacity: 1;
+		/*-webkit-transform: translateY(30px);*/
+		top: 30px;
+	}
+	
+	80% {
+		/*-webkit-transform: translateY(-10px);*/
+		top: -10px;
+	}
+	
+	100% {
+		/*-webkit-transform: translateY(0);*/
+		top: 0;
+	}
+}
+
+@-moz-keyframes bounceInDown {
+	0% {
+		opacity: 0;
+		top: -1000px;
+	}
+	
+	60% {
+		opacity: 1;
+		/*-webkit-transform: translateY(30px);*/
+		top: 30px;
+	}
+	
+	80% {
+		/*-webkit-transform: translateY(-10px);*/
+		top: -10px;
+	}
+	
+	100% {
+		/*-webkit-transform: translateY(0);*/
+		top: 0;
+	}
+}
+
+@-ms-keyframes bounceInDown {
+	0% {
+		opacity: 0;
+		top: -1000px;
+	}
+	
+	60% {
+		opacity: 1;
+		/*-webkit-transform: translateY(30px);*/
+		top: 30px;
+	}
+	
+	80% {
+		/*-webkit-transform: translateY(-10px);*/
+		top: -10px;
+	}
+	
+	100% {
+		/*-webkit-transform: translateY(0);*/
+		top: 0;
+	}
+}
+
+@-o-keyframes bounceInDown {
+	0% {
+		opacity: 0;
+		top: -1000px;
+	}
+	
+	60% {
+		opacity: 1;
+		/*-webkit-transform: translateY(30px);*/
+		top: 30px;
+	}
+	
+	80% {
+		/*-webkit-transform: translateY(-10px);*/
+		top: -10px;
+	}
+	
+	100% {
+		/*-webkit-transform: translateY(0);*/
+		top: 0;
+	}
+}
+
+@keyframes bounceInDown {
+	0% {
+		opacity: 0;
+		top: -1000px;
+	}
+	
+	60% {
+		opacity: 1;
+		/*-webkit-transform: translateY(30px);*/
+		top: 30px;
+	}
+	
+	80% {
+		/*-webkit-transform: translateY(-10px);*/
+		top: -10px;
+	}
+	
+	100% {
+		/*-webkit-transform: translateY(0);*/
+		top: 0;
+	}
+}
+/*End Nav Icons Hide State*/
+
+/*Main Section... Finally XD*/
+#mainRestriction{
+	max-width: 1368px;
+	width: 95%;
+	margin-left: 2.5%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	-webkit-animation: fadeIn .3s linear 1.8s both;
+	-moz-animation: fadeIn .3s linear 1.8s both;
+	-ms-animation: fadeIn .3s linear 1.8s both;
+	-o-animation: fadeIn .3s linear 1.8s both;
+	animation: fadeIn .3s linear 1.8s both;
+	position: relative;
+	min-width: 1216px; /*Delete later for multiple devices!!*/
+}
+
+#mainSection{
+	background: url(../images/LinenWhite.jpg) repeat;
+	width: 100%;
+	box-shadow: 5px 5px 24px 0px rgba(0,0,0,.4);
+	border-radius: 5px;
+	position: relative;
+	z-index: 10;
+}
+
+#titleSection{
+	width: 90%;
+	margin-left: 5%;
+}
+
+@-webkit-keyframes fadeIn{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes fadeIn{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+@-ms-keyframes fadeIn{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+@-o-keyframes fadeIn{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+@keyframes fadeIn{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+/*End Main Section*/
+
+/*Footer Informations*/
+#footerInfo{
+	width: 95%;
+	margin-left: 2.5%;
+	height: 50px;
+	margin-bottom: 20px;
+	max-width: 1368px;
+	position: relative;
+	min-width: 1216px; /*Delete later for multiple device!!!*/
+}
+
+#footerLogo{
+	background: url(../images/navHomeLogo.png) no-repeat;
+	background-size: 100%;
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-right: 30px;
+}
+
+#footerDes{
+	color: rgb(237,237,229);
+	width: 320px;
+	margin-right: 0px;
+	float: left;
+}
+
+#copyRight{
+	padding-top: 3px;
+}
+
+#locationState{
+	margin-top: 10px;
+}
+
+#footerSocialSection{
+	float: right;
+}
+
+.footerSocialIcons{
+	float: right;
+	height: 50px;
+	width: 50px;
+	border-radius: 25px;
+	background: rgba(0,0,0,.4);
+	margin-left: 20px;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+#footerWeiboPic{
+	width: 32px;
+	height: 28px;
+	margin-top: 11px;
+	margin-left: 10px;
+	background: url(../images/footerSocialIcons.png) no-repeat 0px 0px;
+	background-size: 250%;
+}
+
+#footerFacebookPic{
+	width: 18px;
+	height: 32px;
+	margin-top: 12px;
+	margin-left: 15px;
+	background: url(../images/footerSocialIcons.png) no-repeat;
+	background-position-x: -31px;
+	background-size: 441%;
+}
+
+#footerMailPic{
+	width: 32px;
+	height: 22px;
+	margin-top: 15px;
+	margin-left: 9px;
+	background: url(../images/footerSocialIcons.png) no-repeat;
+	background-position-x: -46px;
+	background-size: 240%;
+}
+
+#footerWeibo:hover{
+	background: rgb(198,23,26);
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+#footerFacebook:hover{
+	background: #243f76;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+#footerMail:hover{
+	background: rgb(29,130,201);
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+.footerSocialIcons a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+#preload{
+	display: none;
+}
+
+.preloadImgs{
+	width: 1px;
+	height: 1px;
+}
+/*End Footer Information*/
+.pictureShadowMask{
+	background: rgba(0,0,0,.6);
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	transition: all .3s linear;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	cursor: default;
+}
+
+.pictureShadowMask:hover{
+	opacity: 1;
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	transition: all .3s linear;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.pictureShadowMaskDes{
+	color: white;
+	font-size: 30px;
+}
+
+/*
+@media only screen and (min-width : 320px) and (max-width : 568px){	/	For iPhone	/
+	
+}
+
+@media only screen and (min-width : 569px) and (max-width : 760px){	/	For anything between iPhone & iPad	/
+	$mainRestriction{
+		width: 95%;
+		max-width: 1368px;
+		margin-left: 2.5%;
+	}
+	footer{
+		width: 95%;
+		max-width: 1368px;
+		margin-left: 2.5%;
+	}
+	header{
+		width: 95%;
+		max-width: 1368px;
+		margin-left: 2.5%;
+		height: 85px;
+		padding: 0;
+	}
+	#footerLogo{
+		margin-right: 3px;
+	}
+	.footerSocialIcons{
+		margin-left: 3px;
+	}
+	.navIcons{
+		-webkit-transform: scale(.6);
+		margin-right: -45px;
+		margin-top: -20px !important;
+	}
+	.navIcons:hover{
+		margin-right: -70px;
+		margin-left: -15px
+	}
+	#navHome{
+		-webkit-transform: scale(.6);
+		margin-right: -40px;
+		margin-left: -20px;
+	}
+	#navHome:hover{
+		-webkit-transform: scale(.7);
+	}
+	#navMore:hover{
+		-webkit-transform: scale(.6) rotate(180deg);
+	}
+}
+
+@media only screen and (min-width : 761px) and (max-width : 940px){	/	For iPad, only portrait mode /
+	#mainRestriction{
+		width: 95%;
+		max-width: 1368px;
+		margin-left: 2.5%;
+	}
+	footer{
+		width: 95%;
+		max-width: 1368px;
+		margin-left: 2.5%;
+	}
+	#footerLogo{
+		margin-right: 5px;
+	}
+	.footerSocialIcons{
+		margin-left: 5px;
+	}
+	header{
+		width: 95%;
+		max-width: 1368px;
+		margin-left: 2.5%;
+		height: 100px;
+		padding-top: 10px;
+	}
+	#navHome{
+		-webkit-transform: scale(.77);
+		margin-right: -20px;
+		margin-left: -10px;
+	}
+	#navHome:hover{
+		-webkit-transform: scale(.8);
+	}
+	.navIcons{
+		-webkit-transform: scale(.77);
+		margin-right: -30px;
+	}
+	#navMore:hover{
+		-webkit-transform: scale(.77) rotate(180deg);
+	}
+}
+
+@media only screen and (min-width : 941px) and (max-width : 1024){	/	For iPad, only landscape mode	/
+	header{
+		width: 95%;
+		max-width: 1368px;
+		margin-left: 2.5%;
+	}
+	#mainRestriction{
+		width: 95%;
+		max-width: 1368px;
+		margin-left: 2.5%;
+	}
+	footer{
+		width: 95%;
+		max-width: 1368px;
+		margin-left: 2.5%;
+	}
+}
+
+@media only screen and (min-width : 1025px) and (max-width : 1440px){	/	For 13 & 15 inches	/
+	header{
+		width: 95%;
+		max-width: 1368px;
+		margin-left: 2.5%;
+	}
+}
+
+@media only screen and (min-width : 1441px){ /	Anything Bigger Than 15 inches	/
+	header{
+		width: 1368px;
+		left: 50%;
+		margin-left: -684px;
+	}
+	#mainRestriction{
+		width: 1368px;
+		left: 50%;
+		margin-left: -684px;
+	}
+	footer{
+		width: 1368px;
+		left: 50%;
+		margin-left: -684px !important;
+	}
+}
+*/

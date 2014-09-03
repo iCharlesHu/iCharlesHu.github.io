@@ -1,0 +1,345 @@
+/*This file is the CSS file for building log page on www.icharleshu.com*/
+/*This file is powered by Charles Hu on Jun.12,2012*/
+/*This file is licensed only for use in www.icharleshu.com*/
+
+#mainRestriction{
+	height: 575px;
+}
+
+#mainSection{
+	height: 575px;
+	position: relative;
+}
+
+/*Title Section*/
+#titleSection{
+	height: 400px;
+	width: 100%;
+	margin: 0;
+}
+
+#logTitle{
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	font-size: 60px;
+	text-shadow: 0px 0px 30px rgba(0,0,0,.5);
+	color: rgba(255,255,255,.9);
+	text-align: center;
+}
+
+#titleText{
+	width: auto;
+	height: auto;
+	margin: 0px auto 0px auto;
+	position: relative;
+	top: 70px;
+}
+
+#logHero{
+	height: 400px;
+	width: 100%;
+	background: url(../images/logHeroBG.jpg) center top no-repeat;
+	background-size: cover;
+	border-radius: 5px 5px 0px 0px;
+}
+
+#iconSetSection{
+	width: 825px;
+	height: 200px;
+	position: relative;
+	top: 128px;
+	margin: 0px auto 0px auto;
+}
+
+.logIcons{
+	width: 165px;
+	height: 200px;
+	margin: 0px;
+	position: relative;
+	float: left;
+	display: table-cell;
+	-webkit-animation: fadeInDown .5s ease-in-out both;
+}
+
+#iconHome{
+	-webkit-animation-delay: 2s;
+}
+
+#iconAbout{
+	-webkit-animation-delay: 2.3s;
+}
+
+#iconGallery{
+	-webkit-animation-delay: 2.6s
+}
+
+#iconNewsflow{
+	-webkit-animation-delay: 2.9s;
+}
+
+#iconContact{
+	-webkit-animation-delay: 3.2s;
+}
+
+.iconSelf{
+	width: 140px;
+	height: 140px;
+	position: relative;
+	top: 0px;
+	margin: 0px auto 0px auto;
+	z-index: 5;
+}
+
+.iconPic{
+	width: 140px;
+	height: 140px;
+	position: relative;
+	background: url(../images/logIconSet.png) no-repeat;
+	box-shadow: 0px 0px 10px 3px rgba(0,0,0,.3);
+	border-radius: 30px;
+	z-index: 5;
+}
+
+.iconSlide{
+	width: 100px;
+	height: 30px;
+	background: black;
+	position: relative;
+	margin: 0px auto 0px auto;
+	top: -35px;
+}
+
+.iconSlideProcess{
+	width: 0%;
+	height: 100%;
+	background: url(../images/LinenWhite.jpg) repeat;
+	float: left;
+	position: relative;
+	-webkit-transition: all ease-in-out 2s;
+}
+
+.iconName{
+	font-size: 25px;
+	text-shadow: 0px 0px 5px rgba(0,0,0,.8);
+	margin-left: -51px;
+	display: block;
+	position: absolute;
+	top: 155px;
+	left: 50%;
+	color: white;
+	z-index: 5;
+	-webkit-user-select: none;
+	cursor: default;
+}
+
+.iconShadow{
+	width: 165px;
+	height: 165px;
+	background: url(../images/iconShadow.png) no-repeat;
+	background-size: 100%;
+	position: relative;
+	margin: 0;
+	top: -110px;
+	z-index: 0;
+}
+
+#iconPicHome{
+	background-position-x: 0px;
+}
+
+#iconPicAbout{
+	background-position-x: -140px;
+}
+
+#iconPicGallery{
+	background-position-x: -280px;
+}
+
+#iconPicNewsflow{
+	background-position-x: -420px;
+}
+
+#iconPicContact{
+	background-position-x: -560px;
+}
+
+#iconSelfGallery{
+	opacity: 1;
+}
+
+#iconSlideProcessGallery{
+	-webkit-transition-delay: 3.6s;
+}
+
+#iconSelfNewsflow{
+	opacity: .5;
+}
+
+#iconSlideProcessNewsflow{
+	opacity: 1;
+	-webkit-transition-delay: 3.8s;
+}
+
+#iconSelfContact{
+	opacity: .5;
+}
+
+#iconSlideProcessContact{
+	opacity: 1;
+	-webkit-transition-delay: 4s;
+}
+
+
+#iconSlideProcessHome{
+	-webkit-transition-delay: 3.2s;
+}
+
+#iconSlideProcessAbout{
+	-webkit-transition-delay: 3.4s;
+}
+
+/*See More*/
+.seeMore{
+	width: 120px;
+	height: 30px;
+	position: absolute;
+	float: right;
+	top: 10px;
+	right: 10px;
+	background: rgba(0,0,0,.4);
+	border-radius: 7px;
+	-webkit-transition: all linear .2s;
+	-moz-transition: all linear .2s;
+	-ms-transition: all linear .2s;
+	-o-transition: all linear .2s;
+	transition: all linear .2s;
+}
+
+.seeMore:hover{
+	background: rgba(0,0,0,.8);
+}
+
+.seeMoreURL{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.seeMoreIcon{
+	background: url(../images/seeMore.png) no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+}
+
+@-webkit-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(-40px);
+	}
+	
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+	}
+}
+
+@-webkit-keyframes homeProcess{
+	0%{
+		width: 0px;
+	}
+	100%{
+		width: 80%;
+	}
+}
+
+@-webkit-keyframes aboutProcess{
+	0%{
+		width: 0px;
+	}
+	100%{
+		width: 90%;
+	}
+}
+
+/*Main Log Section*/
+#logSection{
+	height: 175px;
+	background: rgba(255,255,255,.2);
+	box-shadow: 0px -10px 20px rgba(0,0,0,.3);
+}
+
+.buildingLogSection{
+	width: 95%;
+	height: 155px;
+	padding: 10px 2.5% 10px 2.5%;
+	border-bottom: solid 1px rgba(0,0,0,.2);
+}
+
+.buildingLogSection:hover{
+	box-shadow: 0px 0px 10px 5px rgba(0,0,0,.2);
+	-webkit-transition: all ease-in-out .2s;
+}
+
+.dateSection{
+	float: left;
+	width: 21%;
+	height: 100%;
+}
+
+.dateBox{
+	height: 55px;
+	width: 100%;
+	position: relative;
+	margin-top: 7px;
+	-webkit-user-select: none;
+}
+
+.logWeek{
+	font-family: "MainCond";
+	float: left;
+	font-size: 30px;
+	text-align: left;
+	vertical-align: baseline;
+	-webkit-transform: rotate(-90deg);
+	position: absolute;
+	top: 15px;
+	left: -15px;
+	width: 55px;
+	height: 25px;
+}
+
+.logDate{
+	font-family: "MainB";
+	float: left;
+	font-size: 80px;
+	position: absolute;
+	left: 30px;
+	top: -14px;
+}
+
+.logMonth{
+	font-family: "MainCond";
+	font-size: 30px;
+	position: absolute;
+	left: 120px;
+	top: -4px;
+}
+
+.logYear{
+	font-family: "MainCond";
+	font-size: 30px;
+	position: absolute;
+	left: 120px;
+	top: 28px;
+}
+
+.logText{
+	float: left;
+	width: 79%;
+}
+
+.logParagraph{
+	margin: 5px 0px 5px 0px;
+	font-size: 20px;
+}

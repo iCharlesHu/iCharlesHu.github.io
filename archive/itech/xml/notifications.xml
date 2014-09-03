@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--This is notification source for www.icharleshu.com -->
+<!--This file was written by Charles Hu on Oct.28,2012-->
+<notifications>
+	<iTechNotifications>
+		<notification1>
+			<owner>Photography Team</owner>
+			<detail>Team meeting next Wednesday.</detail>
+			<TextColor>rgb(235,69,64)</TextColor>
+		</notification1>
+	</iTechNotifications>
+	<iTechNotifications>
+		<notification2>
+			<owner>iTech Team</owner>
+			<detail>This is test 2</detail>
+			<TextColor>rgb(244,129,29)</TextColor>
+		</notification2>
+	</iTechNotifications>
+	<iTechNotifications>
+		<notification3>
+			<owner>Charles Hu</owner>
+			<detail>This is test 3</detail>
+			<TextColor>rgb(131,0,109)</TextColor>
+		</notification3>
+	</iTechNotifications>
+</notifications>
